@@ -1,0 +1,9 @@
+type: specs.openrewrite.org/v1beta/recipe
+name: com.alataf.rewrite.sonarAutoFixer
+description: >
+  It's a openRewrite configuration to automatically fix safe SonarQube 
+  issues in Spring Boot application.
+
+recipeList:
+  - com.alataf.rewrite.CommonSonarFixes
+  - com.alataf.rewrite.SpringBootStandard
