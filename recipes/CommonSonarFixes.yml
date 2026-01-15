@@ -1,0 +1,10 @@
+type: specs.openrewrite.org/v1beta/recipe
+name: com.alataf.rewrite.CommonSonarFixes
+description: Common safe sonar fixes
+
+recipeList:
+  - org.openrewrite.java.cleanup.CommonStaticAnalysis
+  - org.openrewrite.java.cleanup.RemoveUnusedImports
+  - org.openrewrite.java.cleanup.RemoveUnusedVariables
+  - org.openrewrite.java.cleanup.SimplifyBooleanExpressions
+  - org.openrewrite.java.cleanup.TryWithResources
