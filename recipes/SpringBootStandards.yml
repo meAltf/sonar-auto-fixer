@@ -1,0 +1,7 @@
+type: specs.openrewrite.org/v1beta/recipe
+name: com.alataf.rewrite.SpringBootStandards
+description: Spring Boot coding standards
+
+recipeList:
+  - org.openrewrite.java.spring.AutowireBeanIntoConstructor
+  - org.openrewrite.java.spring.boot3.SpringBoot3BestPractices
