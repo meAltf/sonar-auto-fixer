@@ -1,0 +1,1 @@
+# sonar-auto-fixer
