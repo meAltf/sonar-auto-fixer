@@ -1,0 +1,9 @@
+type: specs.openrewrite.org/v1beta/recipe
+name: com.alataf.rewrite.sonar.staticAnalysis
+displayName: Sonar Static Analysis Fixes
+description: Safe Java static analysis cleanups
+
+recipeList:
+  - org.openrewrite.staticanalysis.UnnecessaryThrows
+  - org.openrewrite.java.RemoveUnusedImports
+  - org.openrewrite.staticanalysis.NoFinalizer
