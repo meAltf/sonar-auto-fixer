@@ -44,6 +44,8 @@ This project uses **OpenRewrite**, which operates directly on Java’s **Abstrac
 - No accidental business logic changes
 - Safe, repeatable, and idempotent refactoring
 
+> **Exploring way to update it means to autoamte it directly through AI**
+
 ---
 
 
